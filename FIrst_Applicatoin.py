@@ -19,4 +19,5 @@ def translate(word):
         return "The word you entered does not exist, pls double check :)"
 
 
-print(translate('rainm'))
+word = input("Enter the word: ")
+print(translate(word))
